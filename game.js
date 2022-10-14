@@ -1,12 +1,12 @@
 
 let words = [
     {
-        "inputs": 5,
+        "inputs": 7,
         "category": "Deportes",
         "word": "Ajedrez"
     },
     {
-        "inputs": 6,
+        "inputs": 7,
         "category": "Nombre de países europeos",
         "word": "Francia"
     },
