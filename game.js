@@ -34,7 +34,7 @@ function fillBlanks() {
     $("#hint").html(randomWord.category)
 
     var gameOver=false
-    //Rellenar los espacios en blanco sólo si se encuentra la coincidencia de caracteres
+    //Rellenar los espacios en blanco solo si se encuentra la coincidencia de caracteres
     $(".clickable").click(function () {
         var correctGuess = false;      
 
@@ -44,7 +44,7 @@ function fillBlanks() {
         //Obtener la vida
         var life = parseInt($("#life").text())
 
-        //Loop through all the letters 
+        //Bucle por todas las letras 
         for (var i = 0; i < randomWord.word.length; i++) {
             //Recorrer todas las letras
             if (randomWord.word.charAt(i).toLowerCase() == id) {
